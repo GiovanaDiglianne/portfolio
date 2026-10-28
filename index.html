@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Giovana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu principal do portfólio -->
+    <header>
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre mim -->
+    <section id="sobre">
+        <h1>Sobre mim</h1>
+        <p>
+            Olá! Eu sou Giovana, estudante de Ciência da Computação,
+            interessada em tecnologia, programação e inteligência artificial.
+        </p>
+        <p>
+            Neste portfólio, apresento um pouco da minha formação,
+            projetos e experiências acadêmicas.
+        </p>
+        <h3>Hobbies e interesses</h3>
+        <p>
+            No meu tempo livre, gosto de ler livros, montar quebra-cabeças e
+            emoldurá-los como quadros. Também gosto de assistir a séries,
+            passar tempo com minha família e brincar com minha cadelinha, Sky.
+        </p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+        <h2>Formação</h2>
+        <h3>Graduação em andamento</h3>
+        <p>
+            Ciência da Computação — Universidade Federal de Mato Grosso (UFMT)
+        </p>
+        <p>
+            Análise e Desenvolvimento de Sistemas — UNINTER
+        </p>
+        <h3>Áreas de interesse</h3>
+        <p>
+            Inteligência Artificial, Machine Learning, Ciência de Dados
+            e desenvolvimento de software.
+        </p>
+        <h3>Idiomas</h3>
+        <p>
+            Português — Nativo
+        </p>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>
+            Nesta seção apresento alguns dos meus projetos e trabalhos acadêmicos.
+        </p>
+        <h3>Sistema de Adoção de Animais</h3>
+        <p>
+            Projeto desenvolvido em Java para a disciplina de Programação
+            Orientada a Objetos, com foco na criação de um sistema de adoção de animais.
+        </p>
+        <a href="https://github.com/GiovanaDiglianne/abrigo-de-animais.git"
+        target="_blank">
+            Ver projeto no GitHub
+        </a>
+        <h3>Jogo da Velha com Minimax</h3>
+        <p>
+            Projeto desenvolvido para a disciplina de Inteligência Artificial,
+            utilizando o algoritmo Minimax e poda alfa-beta para tomada de decisões
+            durante o jogo.
+        </p>
+        <a href="https://github.com/GiovanaDiglianne/jogo-da-velha-minimax.git"
+        target="_blank">
+            Ver projeto no GitHub
+        </a>
+        <h3>Iniciação Científica</h3>
+        <p>
+            Pesquisa intitulada "Uso de Inteligência Artificial e Machine Learning
+            para Apoio à Decisão na Área da Saúde", com foco no estudo de técnicas
+            de aprendizado de máquina aplicadas à análise de dados e ao apoio à
+            tomada de decisão na área da saúde.
+        </p>
+        <p>
+            A pesquisa também aborda ciência de dados, análise preditiva e as
+            possibilidades e limitações de sistemas inteligentes em cenários reais.
+        </p>
+        <h3>Monitoria Acadêmica</h3>
+        <p>
+            Experiência como monitora nas disciplinas de Algoritmos I,
+            Algoritmos II e Estrutura de Dados, na UFMT, auxiliando estudantes
+            durante o processo de aprendizagem dos conteúdos de programação
+            e estruturas de dados.
+        </p>
+        <h3>Rede Social para Idosos</h3>
+        <p>
+            Projeto desenvolvido na disciplina de Tópicos Especiais em Engenharia
+            de Software, envolvendo as etapas de concepção, análise de requisitos,
+            gerenciamento do projeto, projeto de aplicações web, implementação,
+            testes e avaliação de interface.
+        </p>
+        <p>
+            O projeto também contou com prototipação no Figma e análise crítica
+            sobre o uso de Inteligência Artificial ao longo das diferentes fases
+            do desenvolvimento.
+        </p>
+        <h3>Aplicativo de Música para Pessoas com TDAH</h3>
+        <p>
+            Projeto desenvolvido na disciplina de Interação Humano-Computador (IHC),
+            envolvendo entrevistas, mapas de empatia, criação de personas,
+            protótipos de baixa fidelidade e protótipo de alta fidelidade.
+        </p>
+        <p>
+            O protótipo de alta fidelidade foi desenvolvido utilizando a plataforma
+            Lovable, aplicando conceitos de interação e experiência do usuário.
+        </p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>
+            Entre em contato comigo através do formulário abaixo.
+        </p>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+        <p id="mensagem-formulario"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
